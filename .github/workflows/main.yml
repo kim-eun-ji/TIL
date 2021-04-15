@@ -8,12 +8,9 @@ jobs:
         uses: actions/checkout@main
 
       - name: Vuepress deploy
+        uses: jenkey2011/vuepress-deploy@1.0.1
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: set -e
-          npm run build
-          cd build
-          git init
-          git add -A
-          git commit -m 'deploy with vuepress'
-          git push -f https://github.com/kim-eun-ji/TIL master:gh-pages
+          BUILD_SCRIPT: yarn && yarn build
+          TARGET_BRANCH: gh-pages
+          BUILD_DIR: build/

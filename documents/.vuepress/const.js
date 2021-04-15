@@ -14,6 +14,6 @@ exports.GitList = [];
 
 exports.MysqlList = [];
 
-exports.ETCList = [];
+exports.ETCList = ["ETC/test"];
 
 exports.AlgorithmList = [];
