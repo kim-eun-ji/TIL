@@ -1,0 +1,19 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Vuepress deploy
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: set -e
+          npm run build
+          cd build
+          git init
+          git add -A
+          git commit -m 'deploy with vuepress'
+          git push -f https://github.com/kim-eun-ji/TIL master:gh-pages
