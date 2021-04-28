@@ -2,7 +2,7 @@ exports.MILList = [];
 
 exports.TypescriptList = [];
 
-exports.JavaScriptList = [];
+exports.JavaScriptList = ["JavaScript/historypushState"];
 
 exports.ReactList = [];
 
