@@ -45,6 +45,10 @@ module.exports = {
         children: CONST.JsTestingList,
       },
       {
+        title: "Design Pattern",
+        children: CONST.DesignPatternList,
+      },
+      {
         title: "Algorithm",
         children: CONST.AlgorithmList,
       },

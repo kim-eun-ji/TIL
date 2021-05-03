@@ -6,7 +6,7 @@ exports.JavaScriptList = ["JavaScript/historypushState"];
 
 exports.ReactList = [];
 
-exports.DesignPatternList = [];
+exports.DesignPatternList = ["DesignPattern/PutvsPatch"];
 
 exports.PythonList = [];
 
