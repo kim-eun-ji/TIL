@@ -9,6 +9,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "mini-css-extract-plugin": "^1.6.0",
     "vuepress": "^1.8.2"
   }
 }

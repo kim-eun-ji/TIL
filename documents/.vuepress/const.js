@@ -1,6 +1,6 @@
 exports.MILList = [];
 
-exports.TypescriptList = [];
+exports.TypescriptList = ["TypeScript/UnhandledRejection"];
 
 exports.JavaScriptList = ["JavaScript/historypushState"];
 
