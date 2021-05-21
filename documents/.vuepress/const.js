@@ -4,16 +4,18 @@ exports.TypescriptList = ["TypeScript/UnhandledRejection"];
 
 exports.JavaScriptList = ["JavaScript/historypushState"];
 
+exports.NodeJsList = ["NodeJs/orm-sequelize"];
+
 exports.ReactList = [];
 
 exports.DesignPatternList = ["DesignPattern/PutvsPatch"];
 
 exports.PythonList = [];
 
-exports.GitList = [];
+exports.GitList = ["Git/githubActions_mini-css"];
 
 exports.MysqlList = [];
 
-exports.ETCList = ["ETC/test"];
+exports.ETCList = [];
 
 exports.AlgorithmList = [];
