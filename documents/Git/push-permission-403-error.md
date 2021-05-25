@@ -14,22 +14,22 @@ fatal: unable to access 'https://github.com/BorryJJong/Playground.git/': The req
 
 구글링 해보니 해결 방법은 다양했다.
 
-- 자격증명관리자 관련 수정 → 나는 이걸로 해결 못함
-- ssh 키 발급 받고 remote도 ssh로 연결하기 → 나는 이걸로 해결 못함
+* 자격증명관리자 관련 수정 → 나는 이걸로 해결 못함
+* ssh 키 발급 받고 remote도 ssh로 연결하기 → 나는 이걸로 해결 못함
 
 다들 해결했다고 감사합니다 하는데 나만 안되는 상황..^^...ㅠ
 
-### 원인 궁예...
+### 원인 추측...
 
 ---
 
-<!-- ![../.vuepress/public/images/Git/push-permission-403-error/Untitled.png](/img/Git/push-permission-403-error/Untitled.png) -->
+![../.vuepress/public/images/Git/push-permission-403-error/Untitled.png](../.vuepress/public/images/Git/push-permission-403-error/Untitled.png)
 
 `Verified` 얻어보겠다고 gpg 키 생성하고.. 인증을 했었다.
 
-*사실 마크보단 깃 크라켄에서 내가 커밋했는데도 불구하고 2명이 커밋한 것 처럼 떠서 해결방법을 찾다 인증한 거였다.*
+*사실 마크보단 깃 크라켄에서 내가 커밋했는데도 불구하고 아래 이미지와 같이 2명이 커밋한 것 처럼 떠서 해결방법을 찾다 인증한 거였다.*
 
-<!-- ![push%20permission%20403%20error%208ffb66868a4f49f597615136feb503b7/Untitled%201.png](push%20permission%20403%20error%208ffb66868a4f49f597615136feb503b7/Untitled%201.png) -->
+![../.vuepress/public/images/Git/push-permission-403-error/Untitled1.png](../.vuepress/public/images/Git/push-permission-403-error/Untitled1.png)
 
 뭔가 이거 관련한거 아니고선 의심되는 부분이 전혀 없었음.. 이미 구글에서 제시하는 대부분의 해결책을 해봤었기 때문..
 
