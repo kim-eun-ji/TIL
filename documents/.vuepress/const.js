@@ -12,7 +12,10 @@ exports.DesignPatternList = ["DesignPattern/PutvsPatch"];
 
 exports.PythonList = [];
 
-exports.GitList = ["Git/githubActions_mini-css"];
+exports.GitList = [
+  "Git/githubActions_mini-css",
+  "Git/push-permission-403-error",
+];
 
 exports.MysqlList = [];
 
