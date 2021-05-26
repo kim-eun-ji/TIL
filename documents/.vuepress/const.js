@@ -4,7 +4,7 @@ exports.TypescriptList = ["TypeScript/UnhandledRejection"];
 
 exports.JavaScriptList = ["JavaScript/historypushState"];
 
-exports.NodeJsList = ["NodeJs/orm-sequelize"];
+exports.NodeJsList = ["NodeJs/orm-sequelize", "NodeJs/x-www-form-urlencoded"];
 
 exports.ReactList = [];
 
