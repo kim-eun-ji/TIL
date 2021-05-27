@@ -1,6 +1,6 @@
 exports.MILList = [];
 
-exports.TypescriptList = ["TypeScript/UnhandledRejection"];
+exports.TypescriptList = ["TypeScript/UnhandledRejection", "TypeScript/class-this-bind"];
 
 exports.JavaScriptList = ["JavaScript/historypushState"];
 
@@ -12,10 +12,7 @@ exports.DesignPatternList = ["DesignPattern/PutvsPatch"];
 
 exports.PythonList = [];
 
-exports.GitList = [
-  "Git/githubActions_mini-css",
-  "Git/push-permission-403-error",
-];
+exports.GitList = ["Git/githubActions_mini-css", "Git/push-permission-403-error"];
 
 exports.MysqlList = [];
 
