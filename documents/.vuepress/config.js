@@ -45,8 +45,8 @@ module.exports = {
         children: CONST.GitList,
       },
       {
-        title: "Mysql",
-        children: CONST.JsTestingList,
+        title: "DB",
+        children: CONST.DBList,
       },
       {
         title: "Design Pattern",
