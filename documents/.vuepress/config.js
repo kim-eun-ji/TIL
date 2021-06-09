@@ -5,6 +5,7 @@ module.exports = {
   description: `Eunji's Personal Wiki (Today I Learned)`,
   base: "/TIL/",
   dest: "build",
+  plugins: [["sitemap", { hostname: "https://kim-eun-ji.github.io/TIL/" }], ["@vuepress/back-to-top"], ["@vuepress/last-updated"]],
   head: [
     [
       "link",
@@ -13,6 +14,14 @@ module.exports = {
         href: "/logo.png",
       },
     ],
+    [
+      "script",
+      {
+        async: true,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-MQSTKVVWY0",
+      },
+    ],
+    ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MQSTKVVWY0');"]],
   ],
   themeConfig: {
     sidebar: [
