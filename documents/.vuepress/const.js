@@ -14,7 +14,7 @@ exports.PythonList = [];
 
 exports.GitList = ["Git/githubActions_mini-css", "Git/push-permission-403-error"];
 
-exports.DBList = ["DB/rdbs-Integrity-key"];
+exports.DBList = ["DB/rdbs-Integrity-key", "DB/mysql-DATE_FORMAT"];
 
 exports.ETCList = [];
 
