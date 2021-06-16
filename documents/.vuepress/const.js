@@ -18,4 +18,4 @@ exports.DBList = ["DB/rdbs-Integrity-key", "DB/mysql-DATE_FORMAT"];
 
 exports.ETCList = [];
 
-exports.AlgorithmList = ["Algorithm/hash-lv1-42576", "Algorithm/hash-lv2-42578", "Algorithm/hash-lv3-42579"];
+exports.AlgorithmList = ["Algorithm/hash-lv1-42576", "Algorithm/hash-lv2-42578", "Algorithm/hash-lv3-42579", "Algorithm/sq-lv2-42586"];
