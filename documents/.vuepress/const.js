@@ -27,4 +27,5 @@ exports.AlgorithmList = [
   "Algorithm/sq-lv3-42583",
   "Algorithm/heap-lv3-42627",
   "Algorithm/heap-lv3-42628",
+  "Algorithm/fs-lv2-42839",
 ];
