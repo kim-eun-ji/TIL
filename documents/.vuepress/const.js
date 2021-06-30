@@ -1,4 +1,4 @@
-exports.MILList = ["MIL/2021-05"];
+exports.MILList = ["MIL/2021-05", "MIL/2021-06"];
 
 exports.TypescriptList = ["TypeScript/UnhandledRejection", "TypeScript/class-this-bind"];
 
