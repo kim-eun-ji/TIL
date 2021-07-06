@@ -1,6 +1,6 @@
 exports.MILList = ["MIL/2021-05", "MIL/2021-06"];
 
-exports.TypescriptList = ["TypeScript/UnhandledRejection", "TypeScript/class-this-bind"];
+exports.TypescriptList = ["TypeScript/first-method", "TypeScript/UnhandledRejection", "TypeScript/class-this-bind"];
 
 exports.JavaScriptList = ["JavaScript/historypushState"];
 
@@ -29,5 +29,5 @@ exports.AlgorithmList = [
   "Algorithm/heap-lv3-42628",
   "Algorithm/fs-lv2-42839",
   "Algorithm/fs-lv2-42842",
-  "Algorithm/greedy-lv1-42862"
+  "Algorithm/greedy-lv1-42862",
 ];
