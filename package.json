@@ -11,6 +11,7 @@
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-last-updated": "^1.8.2",
+    "@vuepress/theme-default": "^1.8.2",
     "mini-css-extract-plugin": "^1.6.0",
     "vuepress": "^1.8.2",
     "vuepress-plugin-sitemap": "^2.3.1"
