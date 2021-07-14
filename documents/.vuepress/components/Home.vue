@@ -42,6 +42,10 @@ ul {
   line-height: 1.5rem;
 }
 
+.utterances{
+  display: none;
+}
+
 @media (max-width: 550px) {
   h1 {
     font-size: 4.4rem;
