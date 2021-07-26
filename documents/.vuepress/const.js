@@ -16,7 +16,7 @@ exports.GitList = ["Git/githubActions_mini-css", "Git/push-permission-403-error"
 
 exports.DBList = ["DB/rdbs-Integrity-key", "DB/mysql-DATE_FORMAT"];
 
-exports.ETCList = [];
+exports.ETCList = ["ETC/process_and_thread"];
 
 exports.AlgorithmList = [
   "Algorithm/dfsbfs-lv2-43165",
