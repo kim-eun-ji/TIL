@@ -61,7 +61,7 @@ function solution(n, computers) {
 합계: 69.2 / 100.0
 ```
 
-### 시도2.
+## 시도2.
 
 일단 `visit`를 수정했다. 아예 네트워크 idx를 넣어주고 순회시 매번 idx를 빼줬음.
 
