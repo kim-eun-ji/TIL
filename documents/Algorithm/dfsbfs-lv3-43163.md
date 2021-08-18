@@ -125,7 +125,7 @@ function solution(begin, target, words) {
 합계: 100.0 / 100.0
 ```
 
-### 시도2. 진짜 bfs
+## 시도2. 진짜 bfs
 
 ```
 depth 1 = beign 과 알파벳 1개를 제외하고 모든 알파벳이 같은 단어(들)   
