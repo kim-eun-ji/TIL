@@ -20,6 +20,7 @@ exports.ETCList = [];
 
 exports.AlgorithmList = [
   "Algorithm/dfsbfs-lv2-43165",
+  "Algorithm/dfsbfs-lv3-43162",
   "Algorithm/dfsbfs-lv3-43163",
   "Algorithm/hash-lv1-42576",
   "Algorithm/hash-lv2-42578",
