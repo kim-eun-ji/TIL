@@ -19,6 +19,7 @@ exports.DBList = ["DB/rdbs-Integrity-key", "DB/mysql-DATE_FORMAT"];
 exports.ETCList = ["ETC/process_and_thread"];
 
 exports.AlgorithmList = [
+  "Algorithm/kakao-lv2-42888",
   "Algorithm/kakao-lv3-67258",
   "Algorithm/dfsbfs-lv2-43165",
   "Algorithm/dfsbfs-lv3-43162",
