@@ -22,6 +22,14 @@ module.exports = {
       },
     ],
     ["script", {}, ["window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-MQSTKVVWY0');"]],
+    [
+      "script",
+      {
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8737576293731551",
+        crossorigin: "anonymous"
+      },
+    ],
   ],
   themeConfig: {
     sidebar: [
