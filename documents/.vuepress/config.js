@@ -34,10 +34,6 @@ module.exports = {
   themeConfig: {
     sidebar: [
       {
-        title: "Monthly I Learned",
-        children: CONST.MILList,
-      },
-      {
         title: "TypeScript",
         children: CONST.TypescriptList,
       },
